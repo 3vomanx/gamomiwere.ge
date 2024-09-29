@@ -1,0 +1,146 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.table-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.tableContainerH2 {
+  background-color: #009879;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableContainerTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableContainerTD {
+  padding: 15px;
+  text-align: left;
+}
+
+.tableContainerTD:first-child {
+  font-weight: bold;
+  color: #009879;
+  border-right: 1px solid #ddd;
+}
+
+
+.tableContainerTR:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.tableContainerTR:hover {
+  background-color: #e1f5fe;
+}
+
+.tableContainerPRE {
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.takeLoanA{
+  width: 100%;
+  height: 80px;
+  background-color: #009879;
+  color: black;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor:auto
+}
+
+.takeLoanBtn{
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: #f8f8f8;
+  font-weight: 600;
+  letter-spacing: 0.2mm;
+  color: #009879;
+  outline: 0;
+  box-shadow: 0 24px 28px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+
+.takeLoanBtn:hover{
+  background: #e1f5fe;
+  color: #00866c;
+
+}
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 20px;
+}
+
+
+@media screen and (max-width: 1355px){
+  
+}
+
+@media screen and (max-width:800px){
+  .table-container {
+    width: 95%;
+  }
+
+}
+
+@media screen and (max-width:550px){
+  .table-container {
+    width: 100%;
+  }
+
+  .app {
+    margin: 5px;
+  }
+  
+  .tableContainerTD {
+    padding: 10px;
+    font-size: 14px;
+  } 
+}
