@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router'; // Import useRouter from Next.js
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function MyApp({ Component, pageProps }) {
 
