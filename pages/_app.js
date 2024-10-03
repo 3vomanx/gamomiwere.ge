@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Navbar />
+      <SpeedInsights />
       <Component {...pageProps} />
       {!noFooterRoutes.includes(router.pathname) && <Footer />}
       </>
