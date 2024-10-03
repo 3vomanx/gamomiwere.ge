@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="ka"> {/* Changed to Georgian language */}
       <Head>
+        <title>Gamomiwere.Ge</title>
         <meta name="description" content="მოითხოვეთ სამომხმარებლო სესხი მარტივად და სწრაფად! მიიღეთ თანხა ონლაინ, მინიმალური დოკუმენტაციით და საუკეთესო პირობებით თქვენი ფინანსური საჭიროებებისთვის." />
         <meta property="og:title" content="სესხები | Gamomiwere.ge" />
         <meta property="og:description" content="მოითხოვეთ სამომხმარებლო სესხი მარტივად და სწრაფად!" />
