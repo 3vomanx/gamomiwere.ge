@@ -12,7 +12,7 @@ function Footer() {
         <div className={styles.rightSide}>
             <div>
                 <Link href="/privacy">კონფიდენციალურობა</Link>
-                <Link href="/Contact">კონტაქტი</Link>
+                <Link href="/contact">კონტაქტი</Link>
             </div>
         </div>
     </div>

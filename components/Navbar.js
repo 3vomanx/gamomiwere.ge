@@ -35,10 +35,10 @@ function Navbar() {
     </div>
     <div className={`${styles.hiddenLinks} ${openLinks ? styles.show : ''}`}>
           <Link href="/Home">მთავარი</Link>
-          <Link href="/CarLoan">ავტო სესხი</Link>
-          <Link href="/CarLoan">სამომხმარებლო სესხი</Link>
-          <Link href="/Avtolombardi">ავტოლომბარდი</Link>
-          <Link href="/Contact">კონტაქტი</Link>
+          <Link href="/avto-sesxi">ავტო სესხი</Link>
+          <Link href="/samomxmareblo-sesxi">სამომხმარებლო სესხი</Link>
+          <Link href="/avto-lombardi">ავტოლომბარდი</Link>
+          <Link href="/contact">კონტაქტი</Link>
         </div>
     </>
   );
