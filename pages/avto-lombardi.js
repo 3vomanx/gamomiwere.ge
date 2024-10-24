@@ -1,11 +1,11 @@
 import React from "react";
 import AvtoLombardiTable from "../components/AvtoLombardi";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 function AvtoLombardi() {
   return (
     <div>
-      <Helmet>
+      <Head>
         <meta charSet="utf-8" />
         <title>ავტო ლომბარდი | Gamomiwere.ge</title>
         <meta property="og:title" content="ავტო ლომბარდი | Gamomiwere.ge" />
@@ -19,7 +19,7 @@ function AvtoLombardi() {
         />
         <link rel="canonical" href="https://gamomiwere.ge/avtolombardi" />
         <meta name="robots" content="index, follow" />
-      </Helmet>
+      </Head>
       <AvtoLombardiTable />
       <h1 style={{ width: "85%", margin: "0 auto", marginBottom: "20px" }}>
         ავტო ლომბარდი

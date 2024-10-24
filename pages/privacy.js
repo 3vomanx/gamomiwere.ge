@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Privacy.module.css";
 import { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const Privacy = () => {
   useEffect(() => {
@@ -16,13 +16,13 @@ const Privacy = () => {
 
   return (
     <div className="privacy">
-      <Helmet>
+      <Head>
         <meta charSet="utf-8" />
         <title>უსაფრთხოების პოლიტიკა | Gamomiwere.ge</title>
         <meta property="og:title" content="უსაფრთხოების პოლიტიკა | Gamomiwere.ge" />
         <link rel="canonical" href="https://gamomiwere.ge/konfidencialuroba" />
         <meta name="robots" content="index, follow" />
-      </Helmet>
+      </Head>
       <p className={styles.PrivacyText}>
         კონფიდენციალურობის პოლიტიკა sesxeba.ge-ზე ჩვენ ვალდებულნი ვართ დავიცვათ
         ჩვენი მომხმარებლების კონფიდენციალურობა და პირადი ინფორმაცია. ეს

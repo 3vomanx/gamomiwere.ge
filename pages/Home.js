@@ -1,11 +1,11 @@
 import React from "react";
 import SamomxmarebloTable from "../components/SamomxmarebloLoanRender";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 function Home() {
   return (
     <div>
-      <Helmet>
+      <Head>
         <meta charSet="utf-8" />
         <title>სესხები | Gamomiwere.ge</title>
         <meta property="og:title" content="სესხები | Gamomiwere.ge" />
@@ -19,7 +19,7 @@ function Home() {
         />
         <link rel="canonical" href="https://gamomiwere.ge" />
         <meta name="robots" content="index, follow" />
-      </Helmet>
+      </Head>
       <SamomxmarebloTable />
       <h1 style={{ width: "85%", margin: "0 auto", marginBottom: "20px" }}>
         სამომხმარებლო სესხი
